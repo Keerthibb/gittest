@@ -1,0 +1,379 @@
+root@sjc-prd-bcdb01:~# ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0  2021 ?        00:12:45 /lib/systemd/systemd --system --deserialize 44
+root         2     0  0  2021 ?        00:00:11 [kthreadd]
+root         4     2  0  2021 ?        00:00:00 [kworker/0:0H]
+root         6     2  0  2021 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0  2021 ?        00:16:18 [ksoftirqd/0]
+root         8     2  0  2021 ?        1-03:10:50 [rcu_sched]
+root         9     2  0  2021 ?        00:00:00 [rcu_bh]
+root        10     2  0  2021 ?        00:05:49 [migration/0]
+root        11     2  0  2021 ?        00:03:09 [watchdog/0]
+root        12     2  0  2021 ?        00:00:00 [cpuhp/0]
+root        13     2  0  2021 ?        00:00:00 [cpuhp/1]
+root        14     2  0  2021 ?        00:03:06 [watchdog/1]
+root        15     2  0  2021 ?        00:05:57 [migration/1]
+root        16     2  0  2021 ?        00:16:01 [ksoftirqd/1]
+root        18     2  0  2021 ?        00:00:00 [kworker/1:0H]
+root        19     2  0  2021 ?        00:00:00 [cpuhp/2]
+root        20     2  0  2021 ?        00:03:02 [watchdog/2]
+root        21     2  0  2021 ?        00:05:57 [migration/2]
+root        22     2  0  2021 ?        00:15:45 [ksoftirqd/2]
+root        24     2  0  2021 ?        00:00:00 [kworker/2:0H]
+root        25     2  0  2021 ?        00:00:00 [cpuhp/3]
+root        26     2  0  2021 ?        00:03:15 [watchdog/3]
+root        27     2  0  2021 ?        00:06:01 [migration/3]
+root        28     2  0  2021 ?        00:21:22 [ksoftirqd/3]
+root        30     2  0  2021 ?        00:00:00 [kworker/3:0H]
+root        31     2  0  2021 ?        00:00:00 [cpuhp/4]
+root        32     2  0  2021 ?        00:02:58 [watchdog/4]
+root        33     2  0  2021 ?        00:06:02 [migration/4]
+root        34     2  0  2021 ?        00:15:49 [ksoftirqd/4]
+root        36     2  0  2021 ?        00:00:00 [kworker/4:0H]
+root        37     2  0  2021 ?        00:00:00 [cpuhp/5]
+root        38     2  0  2021 ?        00:02:59 [watchdog/5]
+root        39     2  0  2021 ?        00:05:58 [migration/5]
+root        40     2  0  2021 ?        00:15:21 [ksoftirqd/5]
+root        42     2  0  2021 ?        00:00:00 [kworker/5:0H]
+root        43     2  0  2021 ?        00:00:00 [cpuhp/6]
+root        44     2  0  2021 ?        00:03:00 [watchdog/6]
+root        45     2  0  2021 ?        00:05:56 [migration/6]
+root        46     2  0  2021 ?        00:15:34 [ksoftirqd/6]
+root        48     2  0  2021 ?        00:00:00 [kworker/6:0H]
+root        49     2  0  2021 ?        00:00:00 [cpuhp/7]
+root        50     2  0  2021 ?        00:03:08 [watchdog/7]
+root        51     2  0  2021 ?        00:06:02 [migration/7]
+root        52     2  0  2021 ?        00:28:39 [ksoftirqd/7]
+root        54     2  0  2021 ?        00:00:00 [kworker/7:0H]
+root        55     2  0  2021 ?        00:00:00 [kdevtmpfs]
+root        56     2  0  2021 ?        00:00:00 [netns]
+root        57     2  0  2021 ?        00:00:00 [rcu_tasks_kthre]
+root        58     2  0  2021 ?        02:11:42 [kauditd]
+root        60     2  0  2021 ?        00:03:13 [khungtaskd]
+root        61     2  0  2021 ?        00:00:00 [oom_reaper]
+root        62     2  0  2021 ?        00:00:00 [writeback]
+root        63     2  0  2021 ?        00:00:02 [kcompactd0]
+root        64     2  0  2021 ?        00:00:00 [ksmd]
+root        65     2  0  2021 ?        00:04:08 [khugepaged]
+root        66     2  0  2021 ?        00:00:00 [crypto]
+root        67     2  0  2021 ?        00:00:00 [kintegrityd]
+root        68     2  0  2021 ?        00:00:00 [kblockd]
+root        69     2  0  2021 ?        00:00:00 [ata_sff]
+root        70     2  0  2021 ?        00:00:00 [md]
+root        71     2  0  2021 ?        00:00:00 [edac-poller]
+root        72     2  0  2021 ?        00:00:00 [devfreq_wq]
+root        73     2  0  2021 ?        00:00:00 [watchdogd]
+root        83     2  0  2021 ?        00:01:56 [kswapd0]
+root        84     2  0  2021 ?        00:00:00 [kworker/u65:0]
+root        85     2  0  2021 ?        00:00:00 [ecryptfs-kthrea]
+root       127     2  0  2021 ?        00:00:00 [kthrotld]
+root       128     2  0  2021 ?        00:00:00 [acpi_thermal_pm]
+root       129     2  0  2021 ?        00:00:00 [scsi_eh_0]
+root       130     2  0  2021 ?        00:00:00 [scsi_tmf_0]
+root       131     2  0  2021 ?        00:00:00 [scsi_eh_1]
+root       132     2  0  2021 ?        00:00:00 [scsi_tmf_1]
+root       138     2  0  2021 ?        00:00:00 [ipv6_addrconf]
+root       147     2  0  2021 ?        00:00:00 [kstrp]
+root       164     2  0  2021 ?        00:00:00 [charger_manager]
+root       265     2  0  2021 ?        00:00:00 [mpt_poll_0]
+root       266     2  0  2021 ?        00:00:00 [mpt/0]
+root       278     2  0  2021 ?        00:19:50 [kworker/7:1H]
+root       279     2  0  2021 ?        00:00:00 [scsi_eh_2]
+root       280     2  0  2021 ?        00:00:00 [scsi_tmf_2]
+root       281     2  0  2021 ?        00:00:00 [ttm_swap]
+root       282     2  0  2021 ?        00:00:00 [irq/16-vmwgfx]
+root       285     2  0  2021 ?        00:24:50 [kworker/3:1H]
+root       288     2  0  2021 ?        00:18:29 [kworker/4:1H]
+root       289     2  0  2021 ?        00:18:36 [kworker/2:1H]
+root       291     2  0  2021 ?        00:18:39 [kworker/5:1H]
+root       292     2  0  2021 ?        00:18:44 [kworker/1:1H]
+root       357     2  0  2021 ?        00:00:00 [raid5wq]
+root       379     2  0  2021 ?        00:20:43 [kworker/6:1H]
+root       381     2  0  2021 ?        00:00:00 [kdmflush]
+root       382     2  0  2021 ?        00:00:00 [bioset]
+root       412     2  0  2021 ?        01:02:32 [jbd2/dm-0-8]
+root       413     2  0  2021 ?        00:00:00 [ext4-rsv-conver]
+root       415     2  0  2021 ?        00:19:10 [kworker/0:1H]
+root       484     2  0  2021 ?        00:00:00 [iscsi_eh]
+root       487     2  0  2021 ?        00:00:00 [ib-comp-wq]
+root       488     2  0  2021 ?        00:00:00 [ib-comp-unb-wq]
+root       489     2  0  2021 ?        00:00:00 [ib_mcast]
+root       490     2  0  2021 ?        00:00:00 [ib_nl_sa_wq]
+root       491     2  0  2021 ?        00:00:00 [rdma_cm]
+root       495     1  0  2021 ?        00:00:01 /sbin/lvmetad -f
+root       632     2  0  2021 ?        00:00:00 [kdmflush]
+root       634     2  0  2021 ?        00:00:00 [bioset]
+root       671     2  0  2021 ?        00:00:00 [jbd2/sda2-8]
+root       672     2  0  2021 ?        00:00:00 [ext4-rsv-conver]
+root       694     2  0  2021 ?        04:19:04 [jbd2/dm-1-8]
+root       695     2  0  2021 ?        00:00:00 [ext4-rsv-conver]
+root       737 17126  0 21:36 ?        00:00:00 /usr/sbin/CRON -f
+root      1016     1  0  2021 ?        00:44:49 /usr/lib/accountsservice/accounts-daemon
+root      1022     1  0  2021 ?        01:31:37 /usr/sbin/irqbalance --foreground
+root      1028     1  0  2021 ?        00:02:32 /lib/systemd/systemd-logind
+message+  1034     1  0  2021 ?        00:00:58 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1163     1  0  2021 ?        00:10:36 /usr/bin/lxcfs /var/lib/lxcfs/
+daemon    1167     1  0  2021 ?        00:00:00 /usr/sbin/atd -f
+root      1213     2  0 20:52 ?        00:00:00 [kworker/7:2]
+root      1273     1  0  2021 ?        1-20:58:05 /usr/sbin/atopacctd
+root      1313 17126  0 21:29 ?        00:00:00 /usr/sbin/CRON -f
+root      1329     1  0  2021 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+mng       1380     1  0  2021 ?        00:00:19 /lib/systemd/systemd --user
+mng       1381  1380  0  2021 ?        00:00:00 (sd-pam)
+root      1461     1  0  2021 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+mysql     1820     1  1  2021 ?        15-03:50:11 /usr/sbin/mysqld
+root      1943 17126  0 21:15 ?        00:00:00 /usr/sbin/CRON -f
+root      2023     1  0  2021 ?        00:08:09 /usr/lib/postfix/sbin/master -w
+postfix   2035  2023  0  2021 ?        00:01:35 qmgr -l -t unix -u
+root      2089 17126  0 21:22 ?        00:00:00 /usr/sbin/CRON -f
+root      2111     2  0  2021 ?        00:00:00 [dio/dm-1]
+root      3424     1  1  2021 ?        10-03:32:22 /bin/bash ./repl_chk_start_awsmaster.sh
+root      4752 17126  0 21:44 ?        00:00:00 /usr/sbin/CRON -f
+root      4926     2  0 Sep30 ?        00:03:27 [kworker/0:0]
+root      4992     2  0 21:29 ?        00:00:00 [kworker/u64:2]
+root      5307     2  0 Sep30 ?        00:00:00 [kworker/0:2]
+root      5308 17126  0 21:37 ?        00:00:00 /usr/sbin/CRON -f
+root      5846 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5847 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5848 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5849 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5850 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5851 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5852 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5853 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5854 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5855 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5856 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5857 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5858 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5859 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5860 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5861 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5862 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5863 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5864 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5865 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5866 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5867 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5868 17126  0 21:30 ?        00:00:00 /usr/sbin/CRON -f
+root      5908     1  0  2022 ?        00:00:00 /usr/bin/VGAuthService
+root      5909     1  0  2022 ?        08:52:57 /usr/bin/vmtoolsd
+root      6588 17126  0 21:23 ?        00:00:00 /usr/sbin/CRON -f
+systemd+  7125     1  0 Mar08 ?        00:00:12 /lib/systemd/systemd-networkd
+root      7182     1  0 Mar08 ?        21:33:36 /lib/systemd/systemd-journald
+root      7314 17126  0 21:16 ?        00:00:00 /usr/sbin/CRON -f
+root      9028     2  0 Sep30 ?        00:00:00 [kworker/4:2]
+root      9304 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9305 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9306 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9307 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9308 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9309 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9310 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9311 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9312 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9313 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9314 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9315 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9316 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9317 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9318 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9319 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9320 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9321 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9322 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9323 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9324 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9325 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9326 17126  0 21:45 ?        00:00:00 /usr/sbin/CRON -f
+root      9730     1  0  2021 ?        00:00:18 /lib/systemd/systemd --user
+root      9732  9730  0  2021 ?        00:00:00 (sd-pam)
+root      9830 17126  0 21:38 ?        00:00:00 /usr/sbin/CRON -f
+root      9973     1  0  2021 ?        00:01:47 /sbin/rpcbind -f -w
+root     10453 17126  0 21:31 ?        00:00:00 /usr/sbin/CRON -f
+root     11105 17126  0 21:24 ?        00:00:00 /usr/sbin/CRON -f
+root     11416     2  0 20:52 ?        00:00:00 [kworker/6:1]
+root     11828 17126  0 21:17 ?        00:00:00 /usr/sbin/CRON -f
+root     11829 17126  0 21:17 ?        00:00:00 /usr/sbin/CRON -f
+root     11963     2  0 Sep18 ?        00:04:02 [kworker/7:0]
+ntp      12130     1  0 Apr14 ?        00:11:25 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 111:114
+root     12271     2  0 20:52 ?        00:00:00 [kworker/2:1]
+root     12279     2  0 Sep22 ?        00:01:41 [kworker/5:1]
+root     12396     2  0 20:52 ?        00:00:00 [kworker/3:1]
+root     13181     2  0 Sep24 ?        00:01:24 [kworker/4:0]
+root     13861 17126  0 21:46 ?        00:00:00 /usr/sbin/CRON -f
+root     13987     2  0 Sep28 ?        00:00:00 [kworker/1:1]
+root     14344 17126  0 21:39 ?        00:00:00 /usr/sbin/CRON -f
+root     14826 19876  0 21:39 ?        00:00:00 sshd: asahijpal [priv]
+sshd     14831 14826  0 21:39 ?        00:00:00 sshd: asahijpal [net]
+root     14999 17126  0 21:32 ?        00:00:00 /usr/sbin/CRON -f
+root     15585 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15586 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15587 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15588 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15589 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15590 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15591 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15592 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15593 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15594 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15595 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15596 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15597 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15598 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15599 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15600 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15601 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15602 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15603 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15604 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15605 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15606 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15607 17126  0 21:25 ?        00:00:00 /usr/sbin/CRON -f
+root     15608     2  0 Sep23 ?        00:01:30 [kworker/1:2]
+root     16018     2  0 20:52 ?        00:00:00 [kworker/5:0]
+root     16131     1  0  2022 ?        00:00:08 /usr/lib/policykit-1/polkitd --no-debug
+root     16344 17126  0 21:18 ?        00:00:00 /usr/sbin/CRON -f
+root     16521 27484  0 21:05 ?        00:00:19 /opt/rapid7/ir_agent/components/insight_agent/3.3.6.32/ir_agent
+root     16563     1  0  2021 ?        2-08:47:59 /bin/bash ./repl_chk_start_iadmaster.sh
+root     16639 16521  0 21:05 ?        00:00:00 /opt/rapid7/ir_agent/components/insight_agent/3.3.6.32/ir_agent -S -E -c from multiprocessing.resource_track
+root     17126     1  0  2022 ?        00:22:41 /usr/sbin/cron -f
+root     17180     2  0 Sep29 ?        00:00:49 [kworker/6:2]
+syslog   17184     1  0  2022 ?        00:30:40 /usr/sbin/rsyslogd -n
+root     17430 19876  0 21:46 ?        00:00:00 sshd: kbb [priv]
+sshd     17431 17430  0 21:46 ?        00:00:00 sshd: kbb [net]
+root     18426 17126  0 21:47 ?        00:00:00 /usr/sbin/CRON -f
+root     18913 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18914 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18915 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18916 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18917 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18918 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18919 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18920 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18921 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18922 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18923 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18924 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18925 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18926 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18927 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18928 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18929 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18930 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18931 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18932 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18933 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18934 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18935 17126  0 21:40 ?        00:00:00 /usr/sbin/CRON -f
+root     18952 19876  0 21:47 ?        00:00:00 sshd: asahijpal [priv]
+sshd     18956 18952  0 21:47 ?        00:00:00 sshd: asahijpal [net]
+root     19529 17126  0 21:33 ?        00:00:00 /usr/sbin/CRON -f
+root     19876     1  0  2021 ?        00:00:06 /usr/sbin/sshd -D
+root     19961     2  0 Sep26 ?        00:01:03 [kworker/2:2]
+root     20149 17126  0 21:26 ?        00:00:00 /usr/sbin/CRON -f
+postfix  20840  2023  0 20:59 ?        00:00:00 pickup -l -t unix -u -c
+root     20858 17126  0 21:19 ?        00:00:00 /usr/sbin/CRON -f
+root     21825     1  0 Sep29 ?        00:50:36 /usr/bin/atop -R -w /var/log/atop/atop_20230929 600
+root     22605 16521  0 21:06 ?        00:00:24 /opt/rapid7/ir_agent/components/insight_agent/3.3.6.32/ir_agent --multiprocessing-fork tracker_fd=10 pipe_ha
+root     22606 16521  0 21:06 ?        00:00:03 /opt/rapid7/ir_agent/components/insight_agent/3.3.6.32/ir_agent --multiprocessing-fork tracker_fd=10 pipe_ha
+root     22607 16521  0 21:06 ?        00:00:06 /opt/rapid7/ir_agent/components/insight_agent/3.3.6.32/ir_agent --multiprocessing-fork tracker_fd=10 pipe_ha
+root     22965 17126  0 21:48 ?        00:00:00 /usr/sbin/CRON -f
+root     23000     1  0  2022 ?        19:14:56 /usr/sbin/adclient
+root     23004 23000  0  2022 ?        00:08:42 cdcwatch 23000 -F -M
+root     23476 17126  0 21:41 ?        00:00:00 /usr/sbin/CRON -f
+root     24042 17126  0 21:34 ?        00:00:00 /usr/sbin/CRON -f
+root     24693 17126  0 21:27 ?        00:00:00 /usr/sbin/CRON -f
+postfix  24857  2023  0  2021 ?        00:00:43 tlsmgr -l -t unix -u -c
+root     25415 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25416 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25417 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25418 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25419 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25420 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25421 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25422 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25423 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25424 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25425 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25426 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25427 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25428 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25429 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25430 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25431 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25432 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25433 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25434 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25435 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25436 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     25437 17126  0 21:20 ?        00:00:00 /usr/sbin/CRON -f
+root     27484     1  0 Aug07 ?        00:08:00 /opt/rapid7/ir_agent/ir_agent
+root     27506 17126  0 21:49 ?        00:00:00 /usr/sbin/CRON -f
+root     27863 19876  0 21:41 ?        00:00:00 sshd: root [priv]
+sshd     27864 27863  0 21:41 ?        00:00:00 sshd: root [net]
+root     28034 17126  0 21:42 ?        00:00:00 /usr/sbin/CRON -f
+root     28497     2  0 Jul17 ?        00:37:19 [kworker/3:0]
+root     28604 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28605 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28606 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28607 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28608 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28609 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28610 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28611 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28612 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28613 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28614 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28615 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28616 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28617 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28618 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28619 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28620 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28621 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28622 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28623 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28624 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28625 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28626 17126  0 21:35 ?        00:00:00 /usr/sbin/CRON -f
+root     28683     2  0 21:35 ?        00:00:00 [kworker/u64:0]
+root     29052     1  0 Mar08 ?        00:00:21 /lib/systemd/systemd-udevd
+root     29212 17126  0 21:28 ?        00:00:00 /usr/sbin/CRON -f
+root     29980 17126  0 21:21 ?        00:00:00 /usr/sbin/CRON -f
+root     30306 19876  0 20:55 ?        00:00:00 sshd: kbb-prd [priv]
+kbb-prd  30496     1  0 20:55 ?        00:00:00 /lib/systemd/systemd --user
+kbb-prd  30504 30496  0 20:55 ?        00:00:00 (sd-pam)
+kbb-prd  30695 30306  0 20:55 ?        00:00:00 sshd: kbb-prd@pts/2
+kbb-prd  30752 30695  0 20:55 pts/2    00:00:00 -bash
+root     31006 30752  0 20:55 pts/2    00:00:00 sudo -i
+root     31027 31006  0 20:55 pts/2    00:00:00 -bash
+root     32058 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32059 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32060 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32061 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32062 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32063 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32064 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32065 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32066 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32067 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32068 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32069 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32070 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32071 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32072 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32073 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32074 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32075 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32076 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32077 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32078 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32079 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32080 17126  0 21:50 ?        00:00:00 /usr/sbin/CRON -f
+root     32152     1  0  2022 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root     32562 16563  0 21:50 ?        00:00:00 sleep 0.5
+root     32579 27484  0 Sep21 ?        00:02:47 /opt/rapid7/ir_agent/components/endpoint_broker/1.7.0.3/rapid7_endpoint_broker
+root     32602 17126  0 21:43 ?        00:00:00 /usr/sbin/CRON -f
+root     32603 31027  0 21:50 pts/2    00:00:00 ps -ef
+root@sjc-prd-bcdb01:~#
