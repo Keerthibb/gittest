@@ -1,0 +1,26 @@
+sfo-prd-dse01
+ 16:47:51 up 1843 days,  3:14,  1 user,  load average: 4.79, 4.85, 5.06
+sfo-prd-dse02
+ 16:47:55 up 297 days,  5:52,  0 users,  load average: 6.27, 6.03, 6.02
+sfo-prd-dse03
+ 16:47:58 up 579 days, 11:51,  0 users,  load average: 5.16, 4.22, 3.92
+sfo-prd-dse04
+ 16:48:02 up 1843 days,  3:23,  0 users,  load average: 4.54, 4.45, 4.28
+sfo-prd-dse05
+ 16:48:06 up 1843 days,  3:27,  0 users,  load average: 3.89, 4.55, 4.49
+sfo-prd-dse06
+ 16:48:10 up 1843 days,  3:32,  1 user,  load average: 3.82, 4.08, 4.10
+sfo-prd-dse07
+ 16:48:14 up 578 days, 11:17,  0 users,  load average: 3.00, 2.73, 2.97
+sfo-prd-dse08
+ 16:48:18 up 995 days,  8:04,  0 users,  load average: 1.89, 2.71, 3.16
+sfo-prd-dse09
+ 16:48:22 up 1828 days, 19:00,  0 users,  load average: 3.55, 3.48, 3.42
+sfo-prd-dse10
+ 16:48:27 up 1828 days, 19:08,  0 users,  load average: 3.64, 3.68, 3.82
+sfo-prd-dse11
+ 16:48:31 up 911 days,  4:01,  0 users,  load average: 3.39, 3.83, 4.01
+sfo-prd-dse14
+ 16:48:43 up 952 days, 11:38,  0 users,  load average: 3.59, 3.77, 3.76
+sfo-prd-dse15
+ 16:48:47 up 292 days, 14:43,  0 users,  load average: 3.07, 3.92, 4.07
